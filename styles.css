@@ -1,0 +1,72 @@
+/* Basic styles for container */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.update-btn {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the bin statuses */
+.bin-statuses {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.bin-statuses div {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #eee;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Status colors */
+.low {
+    color: green;
+}
+
+.medium {
+    color: orange;
+}
+
+.high {
+    color: red;
+}
+
+/* Map Styling */
+#map {
+    height: 400px;
+    width: 100%;
+}
