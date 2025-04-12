@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FuzzyWasteRadar - Coimbatore</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Leaflet CSS for map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>🗑️ FuzzyWasteRadar - Coimbatore</h1>
+        <button id="update-btn" class="update-btn">🔄 Update All Bin Statuses</button>
+
+        <!-- Display Bin Statuses -->
+        <div class="bin-statuses">
+            <div id="bin1">RS Puram - <span id="status-bin1">Low</span></div>
+            <div id="bin2">Gandhipuram - <span id="status-bin2">Medium</span></div>
+            <div id="bin3">Peelamedu - <span id="status-bin3">High</span></div>
+            <div id="bin4">Kovai Pudur - <span id="status-bin4">Medium</span></div>
+            <div id="bin5">Singanallur - <span id="status-bin5">Low</span></div>
+            <div id="bin6">Tidel Park - <span id="status-bin6">High</span></div>
+            <div id="bin7">Ukkadam - <span id="status-bin7">Low</span></div>
+            <div id="bin8">Peelamedu Market - <span id="status-bin8">Medium</span></div>
+            <div id="bin9">Saibaba Colony - <span id="status-bin9">High</span></div>
+            <div id="bin10">Race Course - <span id="status-bin10">Medium</span></div>
+            <div id="bin11">Pappanaickenpalayam - <span id="status-bin11">Low</span></div>
+            <div id="bin12">Tatabad - <span id="status-bin12">High</span></div>
+            <div id="bin13">Tatabad (2) - <span id="status-bin13">Medium</span></div>
+            <div id="bin14">Peelamedu (2) - <span id="status-bin14">Low</span></div>
+            <div id="bin15">Gandhipuram (2) - <span id="status-bin15">High</span></div>
+        </div>
+
+        <!-- Map Container -->
+        <div id="map" style="height: 400px; width: 100%;"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
